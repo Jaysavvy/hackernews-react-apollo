@@ -16,6 +16,8 @@ const prisma = new PrismaClient({
   errorFormat: 'minimal'
 });
 
+const pmat = 5
+
 const resolvers = {
   Query,
   Mutation,
